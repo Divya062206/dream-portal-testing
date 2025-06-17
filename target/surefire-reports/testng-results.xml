@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-18T00:38:06 IST" name="DreamPortal Test Suite" finished-at="2025-06-18T00:38:38 IST" duration-ms="32674">
+    <groups>
+    </groups>
+    <test started-at="2025-06-18T00:38:06 IST" name="DreamPortal Tests" finished-at="2025-06-18T00:38:38 IST" duration-ms="32674">
+      <class name="testCases.DreamTotalTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.DreamTotalTest@23aa363a]" started-at="2025-06-18T00:38:34 IST" name="setUp" finished-at="2025-06-18T00:38:37 IST" duration-ms="2834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDreamSummaryPage()[pri:0, instance:testCases.DreamTotalTest@23aa363a]" started-at="2025-06-18T00:38:37 IST" name="testDreamSummaryPage" finished-at="2025-06-18T00:38:38 IST" duration-ms="917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDreamSummaryPage -->
+        <test-method is-config="true" signature="captureFailureArtifacts(org.testng.ITestResult)[pri:0, instance:testCases.DreamTotalTest@23aa363a]" started-at="2025-06-18T00:38:38 IST" name="captureFailureArtifacts" finished-at="2025-06-18T00:38:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDreamSummaryPage status=SUCCESS method=DreamTotalTest.testDreamSummaryPage()[pri:0, instance:testCases.DreamTotalTest@23aa363a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailureArtifacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DreamTotalTest@23aa363a]" started-at="2025-06-18T00:38:38 IST" name="tearDown" finished-at="2025-06-18T00:38:38 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.DreamTotalTest -->
+      <class name="testCases.DreamDiaryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.DreamDiaryTest@ff684e1]" started-at="2025-06-18T00:38:28 IST" name="setUp" finished-at="2025-06-18T00:38:30 IST" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDreamDiaryValidation()[pri:0, instance:testCases.DreamDiaryTest@ff684e1]" started-at="2025-06-18T00:38:30 IST" name="testDreamDiaryValidation" finished-at="2025-06-18T00:38:34 IST" duration-ms="3196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDreamDiaryValidation -->
+        <test-method is-config="true" signature="captureFailureArtifacts(org.testng.ITestResult)[pri:0, instance:testCases.DreamDiaryTest@ff684e1]" started-at="2025-06-18T00:38:34 IST" name="captureFailureArtifacts" finished-at="2025-06-18T00:38:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDreamDiaryValidation status=SUCCESS method=DreamDiaryTest.testDreamDiaryValidation()[pri:0, instance:testCases.DreamDiaryTest@ff684e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailureArtifacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DreamDiaryTest@ff684e1]" started-at="2025-06-18T00:38:34 IST" name="tearDown" finished-at="2025-06-18T00:38:34 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.DreamDiaryTest -->
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.HomePageTest@436bc36]" started-at="2025-06-18T00:38:06 IST" name="setUp" finished-at="2025-06-18T00:38:21 IST" duration-ms="15460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageLoads()[pri:0, instance:testCases.HomePageTest@436bc36]" started-at="2025-06-18T00:38:21 IST" name="testHomePageLoads" description="Verify homepage loads and &#039;MY DREAMS&#039; button is clickable" finished-at="2025-06-18T00:38:27 IST" duration-ms="5658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageLoads -->
+        <test-method is-config="true" signature="captureFailureArtifacts(org.testng.ITestResult)[pri:0, instance:testCases.HomePageTest@436bc36]" started-at="2025-06-18T00:38:27 IST" name="captureFailureArtifacts" finished-at="2025-06-18T00:38:27 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageLoads status=SUCCESS method=HomePageTest.testHomePageLoads()[pri:0, instance:testCases.HomePageTest@436bc36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureFailureArtifacts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@436bc36]" started-at="2025-06-18T00:38:27 IST" name="tearDown" finished-at="2025-06-18T00:38:28 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- DreamPortal Tests -->
+  </suite> <!-- DreamPortal Test Suite -->
+</testng-results>
